@@ -182,7 +182,7 @@ function App() {
         customerName: e.target[0].value, email: e.target[1].value, phone: e.target[2].value, address: e.target[3].value,
         cartItems: cart.map(item => ({ title: item.title, price: item.price, qty: item.qty })), totalAmount: grandTotal
       };
-      await axios.post('http://localhost:5000/api/orders', orderData);
+      await axios.post('https://lumina-backend-h4n7.onrender.com/api/orders', orderData);
       alert("Order successfully placed!");
       setCart([]); setIsCartOpen(false); setIsCheckout(false);
     } catch (error) { alert("Error connecting to backend server."); }
@@ -194,7 +194,7 @@ function App() {
       const bookingData = {
         name: e.target[0].value, email: e.target[1].value, phone: e.target[2].value, timeSlot: e.target[3].value, guests: e.target[4].value
       };
-      await axios.post('http://localhost:5000/api/reservations', bookingData);
+      await axios.post('https://lumina-backend-h4n7.onrender.com/api/reservations', bookingData);
       alert("Table reserved successfully!");
       setIsBookingOpen(false);
     } catch (error) { alert("Error connecting to backend server."); }
