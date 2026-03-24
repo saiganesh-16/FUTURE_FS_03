@@ -492,7 +492,7 @@ function App() {
             <iframe title="Restaurant Location" src="https://maps.google.com/maps?q=Panorama+Hills,+Madhurawada,+Visakhapatnam&t=&z=14&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
-        <div className="container" style={{ textAlign: 'center', color: '#6B7280', fontSize: '0.9rem' }}>© 2026 Aura Bistro & Cafe Visakhapatnam. Developed by [Your Name].</div>
+        <div className="container" style={{ textAlign: 'center', color: '#6B7280', fontSize: '0.9rem' }}>© 2026 Aura Bistro & Cafe Visakhapatnam. Developed by A. Poorna Sai Ganesh for Future Interns Task 3.</div>
       </footer>
     </div>
   );
